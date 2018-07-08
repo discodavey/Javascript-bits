@@ -1,0 +1,60 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: arial,sans-serif;
+	font-size: 1.6rem;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.audio-container {
+	padding: 5px;
+	width: 400px;
+	background: #c5c5c5;
+	border: 1px solid #aaa;
+}
+
+audio {
+	width: 100%;
+}
+
+.controls {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-size: contain;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+
+#play {
+	background: url(../img/play.svg) no-repeat center center;
+}
+
+#pause {
+	background: url(../img/pause.svg) no-repeat center center;
+}
+
+#forward {
+	background: url(../img/forward.svg) no-repeat center center;
+}
+
+#rewind {
+	background: url(../img/rewind.svg) no-repeat center center;
+}
+
+#stop {
+	background: url(../img/stop.svg) no-repeat center center;
+}
+
+#time {
+	display: inline-block;
+	padding: 8px 0 0;
+	text-align: right;
+	float: right;
+}
