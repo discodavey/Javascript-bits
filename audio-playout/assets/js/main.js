@@ -10,7 +10,6 @@ audio.addEventListener('progress', function() {
 
 playBtn.addEventListener('click', function(){
 	audio[audio.paused ? 'play' : 'pause']();
-
 });
 
 rwdBtn.addEventListener('click', function(){
@@ -27,9 +26,9 @@ stopBtn.addEventListener('click', function(){
 
 audio.ontimeupdate = function() {myFunction()};
 
- function myFunction() {
- 	document.getElementById('time').innerHTML = audio.currentTime;
- }
+function myFunction() {
+	document.getElementById('time').innerHTML = audio.currentTime;
+}
 
 
 
