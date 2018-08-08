@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form JS Validation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    </head>
+    <body>
+    	<div class="container">
+    		<form id="form" name="form" action="">
+				<label for="name">Name</label>
+                <div class="errorname"></div>
+				<input type="text" name="name" id="name" placeholder="Name">
+
+				<label for="email">Email Address</label>
+                <div class="erroremail"></div>
+				<input type="text" name="email" id="email" placeholder="Email Address">
+
+				<label for="phone">Telephone</label>
+                <div class="errorphone"></div>
+				<input type="text" name="phone" id="phone" placeholder="Telephone">
+
+				<label for="comments">Comments</label>
+                <div class="errorcomments"></div>
+				<textarea name="comments" id="comments" cols="30" rows="10" placeholder="Comments"></textarea>
+
+                <div class="errorMessage">Please field in the fields marked</div>
+				<input type="submit">
+			</form>
+    	</div>
+		
+
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+        <script src="assets/js/main.js" type="text/javascript"></script>
+
+    </body>
+</html>
