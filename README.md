@@ -1,1 +1,1 @@
-This is only the start. More updates to come.
+## Various JavaScript projects
