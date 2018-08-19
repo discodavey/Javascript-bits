@@ -1,0 +1,109 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	font-family: 'Noto Sans', Arial;
+	color: #212121;
+	background: #efefef;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+	margin: 3% auto;
+	padding: 3% 3% 0;
+	width: 94%;
+	max-width: 1000px;
+	background: #fff;
+}
+
+h1, h2 {
+	margin: 0 0 20px;
+	line-height: 1em;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	margin: 0 0 5px;
+	font-size: 2rem;
+
+	a {
+		text-decoration: none;
+	}
+}
+
+ul {
+	margin: 0;
+
+	li {
+		margin: 0;
+	}
+}
+
+a {
+	color: #212121;
+	text-decoration: none;
+
+	&:hover {
+		color: #0277bd;
+	}
+}
+
+.outer-block {
+	margin: 0 0 20px;
+	padding: 0 0 20px;
+	border-bottom: 1px solid #e0e0e0;
+	overflow: hidden;
+
+	&:first-child {
+		padding: 20px 0 20px;
+	}
+
+	&:last-child {
+		border-bottom: none;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0 5px 0 0;
+
+		li {
+			margin: 0;
+			padding: 0 0 0 10px;
+			font-size: 1.3rem;
+			list-style-type: none;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.author {
+	margin: 0 0 5px;
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.co-authors-container {
+	margin: 20px 0 0;
+}
+
+
